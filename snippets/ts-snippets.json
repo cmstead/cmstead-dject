@@ -1,0 +1,45 @@
+{
+    "Dject Node Typescript Class": {
+        "prefix": "dject-js-node-typescript",
+        "body": [
+            "class $1 {",
+            "    constructor () {",
+            "    }",
+            "",
+            "}",
+            "",
+            "$1['@instantiable'] = true;",
+            "",
+            "export default {",
+            "    name: '$1',",
+            "    value: $1",
+            "};"
+        ],
+        "description": "Dject Node Typescript Module Snippet"
+    },
+    "Dject Client Typescript Class": {
+        "prefix": "dject-js-client-typescript",
+        "body": [
+            "const dependencies = [",
+            "    '__container'",
+            "]",
+            "",
+            "class $1 {",
+            "    constructor (...injectedDependencies) {",
+            "        const [container] = injectedDependencies;",
+            "        const {} = container.buildDependencyMap(dependencies, injectedDependencies);",
+            "    }",
+            "",
+            "}",
+            "",
+            "$1['@instantiable'] = true;",
+            "$1['@dependencies'] = dependencies;",
+            "",
+            "export default {",
+            "    name: '$1',",
+            "    value: $1",
+            "};"
+        ],
+        "description": "Dject Client Typescript Module Snippet"
+    }
+}

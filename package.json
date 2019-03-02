@@ -1,0 +1,28 @@
+{
+    "name": "cmstead-dject",
+    "displayName": "cmstead.dject",
+    "description": "Snippets for development with Dject in various environments",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/js-snippets.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/ts-snippets.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/js-snippets.json"
+            }
+        ]
+    }
+}

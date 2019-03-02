@@ -1,0 +1,77 @@
+{
+    "Dject Node Common JS Module": {
+        "prefix": "dject-js-node-commonjs",
+        "body": [
+            "function $1 ($2) {",
+            "    $3",
+            "",
+            "    return {",
+            "    };",
+            "}",
+            "",
+            "module.exports = $1;"
+        ],
+        "description": "Dject Node Common JS Module Snippet"
+    },
+
+    "Dject Client Common JS Module": {
+        "prefix": "dject-js-client-commonjs",
+        "body": [
+            "function $1 ($2) {",
+            "    $3",
+            "",
+            "    return {",
+            "    };",
+            "}",
+            "",
+            "module.exports = $1;"
+        ],
+        "description": "Dject Client Common JS Module Snippet"
+    },
+
+    "Dject Node ES-Next Module": {
+        "prefix": "dject-js-node-es-next",
+        "body": [
+            "function $1 ($2) {",
+            "    $3",
+            "",
+            "    return {",
+            "    };",
+            "}",
+            "",
+            "export default {",
+            "    name: '$1',",
+            "    value: $1",
+            "};"
+        ],
+        "description": "Dject Node ES-Next Module Snippet"
+    },
+
+    "Dject Client ES-Next Module": {
+        "prefix": "dject-js-client-es-next",
+        "body": [
+            "const dependencies = [",
+            "    '__container'",
+            "]",
+            "",
+            "function $1 (...injectedDependencies) {",
+            "    const [container] = injectedDependencies;",
+            "    const {} = container.buildDependencyMap(dependencies, injectedDependencies);",
+            "",
+            "    $3",
+            "",
+            "    return {",
+            "    };",
+            "}",
+            "",
+            "$1['@dependencies'] = dependencies;",
+            "",
+            "export default {",
+            "    name: '$1',",
+            "    value: $1",
+            "};"
+        ],
+        "description": "Dject Client ES-Next Module Snippet"
+    }
+
+}
