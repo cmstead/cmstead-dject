@@ -2,7 +2,7 @@
     "name": "cmstead-dject",
     "displayName": "cmstead.dject",
     "description": "Snippets for development with Dject in various environments",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "scripts": {
         "build-readme": "node ./node_modules/booklisp ./readme/readme.src.md ./README.md"
     },
