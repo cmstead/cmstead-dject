@@ -1,5 +1,6 @@
 {
-    "name": "cmstead-dject",
+    "name": "dject",
+    "publisher": "cmstead",
     "displayName": "cmstead.dject",
     "description": "Snippets for development with Dject in various environments",
     "version": "1.0.1",
