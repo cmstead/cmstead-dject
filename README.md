@@ -1,65 +1,33 @@
-# cmstead-dject README
+<!-- GENERATED DOCUMENT! DO NOT EDIT! -->
+# Dject for VS Code #
 
-This is the README for your extension "cmstead-dject". After writing up a brief description, we recommend including the following sections.
+## Table Of Contents ##
 
-## Features
+- [Section 1: Introduction](#user-content-introduction)
+- [Section 2: Installation](#user-content-installation)
+- [Section 3: Version History](#user-content-version-history)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Introduction ##
 
-For example if there is an image subfolder under your extension project workspace:
+Dject for VS Code is a suite of snippets to support quick, pain-free integration of the Dject dependency injection system. While in a Javascript, Vue, React, or Typescript file, type "dject" and select the snippet you want to use. It's just that simple.
 
-\!\[feature X\]\(images/feature-x.png\)
+Snippets support node and client-side development as well as special cases for Vue single-file components. Everything is baked and ready for immediate use, no fuss, no muss.
+    
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Installation ##
 
-## Requirements
+To install Dject for VS Code, open the extensions panel, search for Dject and install the plugin. Once installation is done, you're ready to go!
+    
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Version History ##
 
-## Extension Settings
+**v1.0.x**
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- Initial release, includes snippets for:
+    - Javascript
+    - Vue single-file components
+    - Typescript
+    
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+<!-- GENERATED DOCUMENT! DO NOT EDIT! -->
+    

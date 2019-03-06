@@ -3,6 +3,9 @@
     "displayName": "cmstead.dject",
     "description": "Snippets for development with Dject in various environments",
     "version": "1.0.0",
+    "scripts": {
+        "build-readme": "node ./node_modules/booklisp ./readme/readme.src.md ./README.md"
+    },
     "engines": {
         "vscode": "^1.31.0"
     },
@@ -24,5 +27,8 @@
                 "path": "./snippets/vue-snippets.json"
             }
         ]
+    },
+    "devDependencies": {
+        "booklisp": "^1.7.3"
     }
 }
