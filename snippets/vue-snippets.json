@@ -1,0 +1,62 @@
+{
+    "Dject Vue Script": {
+        "prefix": "dject-vue-script",
+        "body": [
+            "const dependencies = [",
+            "    '__container'",
+            "]",
+            "",
+            "function $1 (...injectedDependencies) {",
+            "    const [container] = injectedDependencies;",
+            "    const {} = container.buildDependencyMap(dependencies, injectedDependencies);",
+            "",
+            "    $3",
+            "",
+            "    return container.copyProps({",
+            "    }, $1);",
+            "}",
+            "",
+            "$1['@dependencies'] = dependencies;",
+            "",
+            "export default {",
+            "    name: '$1',",
+            "    value: $1",
+            "};"
+        ],
+        "description": "Dject Vue Script Snippet"
+    },
+
+    "Dject Vue Single-File Component": {
+        "prefix": "dject-vue-component",
+        "body": [
+            "<template>",
+            "</template>",
+            "<script>",
+            "const dependencies = [",
+            "    '__container'",
+            "]",
+            "",
+            "function $1 (...injectedDependencies) {",
+            "    const [container] = injectedDependencies;",
+            "    const {} = container.buildDependencyMap(dependencies, injectedDependencies);",
+            "",
+            "    $3",
+            "",
+            "    return container.copyProps({",
+            "    }, $1);",
+            "}",
+            "",
+            "$1['@dependencies'] = dependencies;",
+            "",
+            "export default {",
+            "    name: '$1',",
+            "    value: $1",
+            "};",
+            "</script>",
+            "<style scoped>",
+            "</style>"
+        ],
+        "description": "Dject Vue Single-File Component"
+    }
+
+}
