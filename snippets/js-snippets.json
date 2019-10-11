@@ -2,7 +2,7 @@
     "Dject Node Common JS Module": {
         "prefix": "dject-js-node-commonjs",
         "body": [
-            "function $1 ($2) {",
+            "function ${1:${TM_FILENAME/([^\\.]+)\\..*/${1}/}} ($2) {",
             "    $3",
             "",
             "    return {",
@@ -32,7 +32,7 @@
     "Dject Node ES-Next Module": {
         "prefix": "dject-js-node-es-next",
         "body": [
-            "function $1 ($2) {",
+            "function ${1:TM_FILENAME} ($2) {",
             "    $3",
             "",
             "    return {",
